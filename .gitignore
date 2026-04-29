@@ -1,0 +1,12 @@
+/lib/
+/out/
+/cache/
+/broadcast/
+/.env
+/.DS_Store
+.env.local
+.env.*
+!.env.example
+.vscode/
+*.log
+
