@@ -83,17 +83,6 @@ It does not yet include:
 - audited bridge adapters or oracle adapters
 - finalized governance and recovery operations
 
-## Suggested Next Steps
-
-```powershell
-forge install OpenZeppelin/openzeppelin-contracts-upgradeable
-forge install OpenZeppelin/openzeppelin-contracts
-forge build
-forge test
-```
-
-After dependencies are installed, the next practical milestone is to turn the current skeleton into a compiling Foundry project, then add invariant tests, exploit simulations, and one complete protected integration flow.
-
 ## Design Assumptions
 
 - Compiler target: Solidity `^0.8.35`
